@@ -88,7 +88,14 @@ You can run the entire app inside Docker — **no Python or LaTeX setup required
 
 #### Build the Docker image
 
-From the project root (`STRM/strm-tests`):
+first clone the repo
+
+```bash
+git clone https://github.com/linuxscout/strm-tests.git
+cd strm-tests
+```
+
+than build the container from the docker img
 
 ```bash
 sudo docker build -t strm-app .
