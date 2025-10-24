@@ -84,6 +84,7 @@ pip install -r web/requirements.txt
 
 ### Option 1: 🐳 Run with Docker (Recommended)
 
+**make sure that Docker Desktop or Docker Cli is installed on your machine **
 You can run the entire app inside Docker — **no Python or LaTeX setup required**.
 
 #### Build the Docker image
